@@ -1,0 +1,213 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #444;
+  position: relative;
+}
+
+
+header div#main-nav {
+  position: relative;
+  height: 110px; 
+  margin: 0px;
+}
+
+button#usr-sign {
+  color: grey;
+  position: absolute;
+  top: 7px; 
+  right: 18px;
+  background-color: #444;
+  border: none;
+}
+
+button#usr-sign i {
+  padding: 0px 5px 0px 3px;
+}
+
+div#main-nav .button-bar {
+  position: absolute;
+  bottom: 20px;
+  left: 17px;
+}
+
+.button-bar i {
+  padding-right: 7px;
+  color: cyan;
+}
+
+div#main-nav .button-bar button {
+  background-color: #444;
+  color: #999;
+  border: none;
+}
+
+header .logo {
+  position: absolute; 
+  right: 20px;
+  bottom: 20px; 
+  margin: 0px;
+  padding: 0px; 
+  font-size: 2.3em;
+  color: #bbb;
+}
+
+.logo p {
+  margin: 0px; 
+  padding: 0px;
+}
+
+.base-layer {
+  background-color: #eee;
+  padding: 15px 25px 40px 25px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.section {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.user-card {
+  border: lightgrey solid 2px; 
+  max-width: 300px;
+  min-width: 275px;
+  margin: 2px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.image-layer {
+  height: 130px; 
+  position: relative; 
+  overflow: hidden;
+}
+
+img#bg {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-layer div#view-tracker {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.image-layer div#view-tracker p{
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+}
+
+div#view-tracker .views {
+  font-size: .8em;
+  margin: 0px;
+  padding: 0px;
+}
+
+div#view-tracker .view-count {
+  font-size: 1.8em;
+  margin: 0px; 
+  padding: 0px;
+}
+
+.image-layer div#whatisthis {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background-color: white;
+  padding: 10px; 
+  margin: 10px;
+  border-radius: 30px;
+  color: grey;
+}
+
+.info-section {
+  background-color: white;
+  padding: 15px;
+}
+
+.info-section h3 {
+  color: grey;
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+  font-size: 1.1em;
+}
+
+.user-card .date {
+  margin: 0px; 
+  padding: 0px;
+  color: lightgrey;
+  font-size: 1em;
+}
+
+.user-card .link {
+  background-color: lightgrey; 
+  margin: 20px 4px 25px 0px;
+  height: 40px;
+}
+
+.user-card .link-url {
+  padding: 7px 4px 7px 4px;
+  font-size: .8em;
+  color: white;
+}
+
+.user-card h4 {
+  color: grey;
+  margin-bottom:3px;
+  padding: 0px;
+  font-size: .8em;
+}
+
+.user-card .playlist-name {
+  color: lightgrey;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.user-card .attach-count {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.5em;
+  color: cyan;
+}
+
+@media only screen and (max-width: 550px) {
+    div#main-nav .logo {
+      top: 15px;
+      left: 12px;
+    }
+    
+    div#main-nav .button-bar {
+      left: 10px;
+    }
+  
+    div#main-nav .button-bar button {
+    width: auto; 
+    margin: 0px 3px 0px 0px;
+    padding: 0px;
+    }
+}
+
+
+
+
